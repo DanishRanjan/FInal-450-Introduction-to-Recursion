@@ -10,8 +10,8 @@ public static int factorial(int n) {
 	if(n==0) {
 		return 1;
 	}
-	int rec = factorial(n-1);
-	int ans = n*rec;
+	int nm1 = factorial(n-1);   //nm1 = n minus 1
+	int ans = n*nm1;
 	return ans;
 }
 }
